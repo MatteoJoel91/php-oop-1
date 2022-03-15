@@ -40,3 +40,11 @@ $secondMovie = new Movie('Il signore degli anelli - Il ritorno del re');
 $secondMovie->durata = '201';
 $secondMovie->genere = 'Fantasy epico, Avventura, Narrativa fantasy';
 echo $secondMovie-> getDurata() . '<br>' . $secondMovie->getGenere();
+
+echo '<br>';
+echo '<br>';
+
+$thirdMovie = new Movie('Lo chiamavano Trinità...');
+$thirdMovie->durata = '115';
+$thirdMovie->genere = null;
+echo $thirdMovie-> getDurata() . '<br>' . $thirdMovie->getGenere();
